@@ -9,7 +9,7 @@ public:
             maxf=max(maxf,arr[s[end]-'A']);
             if((end-start+1)-maxf>k){
                 arr[s[start]-'A']--;
-                maxf=0;
+                
                 start++;
             }
             if((end-start+1)-maxf<=k){
