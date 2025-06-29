@@ -41,7 +41,7 @@ public:
                 if(nrow>=0 && ncol>=0 && nrow<m && ncol<n && visited[nrow][ncol]==0 && grid[nrow][ncol]==1)
                 { 
                     q.push({{nrow,ncol},time+1});
-                    visited[nrow][ncol]=2;
+                    visited[nrow][ncol]=1;
                     count++;
                 }
             }
