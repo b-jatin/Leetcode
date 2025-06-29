@@ -12,7 +12,7 @@ public:
             for(int j=0;j<n;j++){
                 if(grid[i][j]==2){
                     q.push({{i,j},0});
-                    visited[i][j]=2;
+                    visited[i][j]=1;
                 }
                 else{
                     visited[i][j]=0;
