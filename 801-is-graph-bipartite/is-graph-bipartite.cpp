@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool bfs(vector<vector<int>>& graph, int v, int start,vector<int>& color ){
+        //striver solution
         queue<int> q;
         q.push(start);
         color[start]=0;
