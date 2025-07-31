@@ -4,10 +4,10 @@ public:
         priority_queue<int, vector<int>, greater<int>> pq;
         for( int i: nums){
             pq.push(i);
-            k--;
-            if(k<0){
+            
+            if(pq.size()>k){
                 pq.pop();
-                k++;
+        
             }
         }
         return pq.top();
