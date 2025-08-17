@@ -11,12 +11,12 @@ public:
         }
 
         for(auto j: temp){
-            if(temp.find(j+1)==temp.end()){
+            if(temp.find(j-1)==temp.end()){
                 int count=1;
                 int x=j;
-                while(temp.find(x-1)!=temp.end()){
+                while(temp.find(x+1)!=temp.end()){
                     
-                    x--;
+                    x++;
                     count++;
                 }
                 
